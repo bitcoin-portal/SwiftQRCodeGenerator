@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .target(
             name: "BitcoinQRCodeGenerator",
-            path: "Sources/BitcoinQRCodeGenerator",
-            dependencies: []
+            dependencies: [],
+            path: "Sources/BitcoinQRCodeGenerator"
         ),
         .testTarget(
             name: "BitcoinQRCodeGeneratorTests",
